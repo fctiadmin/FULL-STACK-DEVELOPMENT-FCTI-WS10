@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.row{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: auto auto auto;
+    grid-template-columns: 200px 400px 500px; */
+    gap: 30px;
+
+}
+.col{
+    background-color: aquamarine;
+}
